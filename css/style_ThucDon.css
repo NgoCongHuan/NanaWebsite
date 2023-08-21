@@ -1,0 +1,142 @@
+.container, .col-lg-6, .col-lg-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        margin-top: -80px;
+    }
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+
+}
+
+.menu-right-block {
+    padding: 40px 40px;
+}
+
+.heading {
+    font-size: 45px;
+    grid-column-gap: 10px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: fit-content;
+    align-items: center;
+    line-height: normal;
+    font-weight: bold;
+}
+
+h4 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.underline {
+    font-weight: bold;
+    margin-top: -5px;
+    font-size: 12px;
+    position: relative;
+}
+
+.underline:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+}
+
+.menu-note {
+    font-weight: bold;
+}
+
+.menu-title-group {
+    padding: 8px 0;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table>tbody>tr>td {
+    border-top: 0;
+    padding: 8px 0;
+}
+
+.table>thead>tr>th {
+    border-bottom: 0;
+    padding: 8px 20px;
+}
+.item-title, .item-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-note {
+    font-size: 12px;
+}
+
+.price, .size {
+    text-align: right;
+}
+
+.item {
+    width:80%;
+}
+
+.price {
+    width:20%;
+}
+
+#tratuoi-tratraicay:before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    right: 40px;
+    background-color: #000;
+}
+
+.menu-topping-title {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu-topping-title-text {
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.menu-topping-title-text:after {
+    width:50%;
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    left: 25%;
+    right: 25%;
+    bottom: 0;
+}

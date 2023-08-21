@@ -1,0 +1,129 @@
+/* -- HEADER -- */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-right: 30px;
+}
+
+.navbar-inverse {
+    background-color: #EEEEEE;
+    border: 0;
+}
+
+#header {
+    padding-top: 0;
+    box-shadow:0 8px 8px -10px black;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar.navbar-inverse {
+        background-color: #336666;
+        border: 0;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #EEEEEE !important;
+        padding-left: 50px;
+    }
+
+    .navbar-collapse {
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
+    }
+
+    .banner {
+        margin-top: -80px;
+    }
+
+    .footer h6 {
+        font-size: 8px;
+    }
+
+    .container>.navbar-header {
+        margin-right: 0;
+    }
+}
+
+.navbar-brand {
+    height: 80px;
+    padding: 0 15px;
+    line-height: 80px;
+}
+
+.navbar-nav>li>a {
+    line-height: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #336666;
+}
+
+.navbar-toggle {
+    margin-top: 22px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #336666;
+    text-decoration: underline;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #336666;
+}
+
+#nav li:hover a {
+    text-decoration:underline;
+}
+
+.navbar-inverse .nav .active > a {
+    background-color: transparent;
+    color: #336666;
+    text-decoration: underline;
+}
+
+.navbar-inverse .nav .active > a:hover {
+    background-color: transparent;
+    color: #336666;
+}
+
+/* -- FOOTER -- */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #336666;
+    padding: 10px 0;
+}
+
+h6 {
+    color: white;
+    font-size: 10px;
+    margin-left: -37px;
+}
+
+.logo li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+}

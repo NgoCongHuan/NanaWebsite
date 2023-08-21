@@ -1,0 +1,240 @@
+.container, .col-lg-6, .col-lg-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F5F5F5;
+}
+
+.banner {
+    padding-top:80px;
+    margin-left:0;
+    float:left;
+}
+
+.carousel-indicators {
+    bottom:0;
+    z-index: 1;
+}
+
+.title-text {
+    font-size:23px;
+    font-weight:bold;
+    color:#336666;
+}
+
+.gioithieu-content, .tintuc-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.gioithieu-note, .tintuc-note {
+    font-size: 17px;
+    padding: 20px 60px;
+}
+
+.button-chitiet {
+    border: 0;
+    background-color: #336666;
+    color: #EEEEEE;
+    font-size: 12px;
+    padding: 10px 50px;
+}
+
+/* SẢN PHẨM MỚI */
+#items-spm {
+    width:1170px;
+    height:425px;
+    background-image:url("/images/banner_spm.png");
+    background-size: cover;
+    float:left;
+}
+
+.item-spm-first {
+    margin-top:165px;
+    margin-left:215px;
+    float:left;
+}
+
+.item-spm {
+    margin-top:165px;
+    margin-left:20px;
+    float:left;
+}
+
+#item1-hover {
+    margin-top:165px;
+    margin-left:215px;
+    opacity:0;
+    transition: all 300ms ease-in-out;
+}
+
+#item2-hover {
+    margin-top:165px;
+    margin-left:405px;
+    opacity:0;
+    transition: all 300ms ease-in-out;
+}
+
+#item3-hover {
+    margin-top:165px;
+    margin-left:596px;
+    opacity:0;
+    transition: all 300ms ease-in-out;
+}
+
+#item4-hover {
+    margin-top:165px;
+    margin-left:786px;
+    opacity:0;
+    transition: all 300ms ease-in-out;
+}
+
+.item-hover {
+    width:170px;
+    height:250px;
+    background-color:rgba(51,102,102,0.5);
+    text-align:center;
+    color:white;
+    position:absolute;
+    padding-top:75px;
+}
+
+.title-hover {
+    font-size:18px;
+    font-style:italic;
+}
+
+.hr-hover {
+    width:30px;
+    margin-left:70px;
+}
+
+.button-hover {
+    width:66px;
+    height:25px;
+    border:0;
+    background-color:#EEEEEE;
+    font-size:10px;
+    color:#336666;
+}
+
+
+
+/* ĐÁNH GIÁ CỦA KHÁCH HÀNG */
+#feedback {
+    padding: 25px 30px;
+}
+
+.feedback-item {
+    padding: 30px 30px;
+    z-index: 1;
+}
+
+.feedback {
+    height:150px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition:transform 0.2s;
+    background-image: url("/images/feedback-background.png");
+    background-size: 100% auto;
+    padding: 0 20px;
+    padding-top: 13px;
+}
+
+.feedback:hover {
+    cursor:pointer;
+    transform:scale(1.05);
+}
+
+#feedback-link {
+    color:black;
+    text-decoration:none;
+}
+
+.avatar {
+    padding: 0 0;
+}
+
+.name {
+    padding: 0 0;
+    font-size:13px;
+    font-weight:bold;
+    text-align:left;
+}
+
+.date {
+    font-size:7px;
+}
+
+.feedback-content {
+    padding-top:8px;
+    text-align:justify;
+    font-size:10px;
+}
+
+.line {
+    padding-top: 10px;
+}
+
+
+/* ĐỊA CHỈ CỬA HÀNG */
+.diachi {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.diachi-content {
+    padding: 20px 20px;
+}
+.diachi-title {
+    background-image:url("/images/backgr_title_diachi.png");
+    background-size: 100% auto;
+}
+
+.dcch {
+    color:#424143;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.dcch-note {
+    font-size: 14px;
+}
+
+.select {
+    padding-top: 20px;
+}
+
+.select-province {
+    padding: 20px 20px;
+}
+
+.select-province:focus {
+    border-color:darkcyan;
+    box-shadow: 0 0 8px 0 darkcyan;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.button-find {
+    background-color: #336666;
+    border: 0;
+    padding: 20px 20px;
+    color: #EEEEEE;
+}

@@ -1,0 +1,152 @@
+.container, .col-lg-6, .col-lg-12, .col-lg-4, .col-lg-8 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F5F5F5;
+}
+
+.bold_text {
+    font-size:23px;
+    font-weight:bold;
+    color:#336666;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.banner {
+    z-index: 0;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.select-bar, .select-button {
+    padding: 35px 15px;
+}
+
+.items {
+    margin-top: -30px;
+    padding: 0 15px;
+}
+
+#dongnaiStore, #binhduongStore {
+    margin-top: 30px;
+}
+
+.select-province {
+    width:100%;
+    height:45px;
+    background-color:white;
+    text-indent:12px;
+}
+
+.select-province option[value="data0"] {
+    font-size:13px;
+    color:#666666;
+}
+
+.select-province option[value="data1"] {
+    font-size:13px;
+    color:#666666;
+}
+
+.select-province option[value="data2"] {
+    font-size:13px;
+    color:#666666;
+}
+
+.select-province:focus {
+    border-color:darkcyan;
+    box-shadow: 0 0 8px 0 darkcyan;
+}
+
+.button {
+    width:100%;
+    height:45px;
+    border: 0;
+    background-color: #336666;
+    color: #EEEEEE;
+}
+
+.button:hover {
+    cursor:pointer;
+}
+
+.address {
+    margin-bottom: 30px;
+}
+
+#dongnaiStore {
+    width:100%;
+    height:130px;
+    transition: transform 0.2s;
+}
+
+#dongnaiStore:hover {
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+#binhduongStore {
+    width:100%;
+    height:130px;
+    transition: transform 0.2s;
+}
+
+#binhduongStore:hover {
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+.item-style {
+    width:100%;
+    height:130px;
+    float:left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.item-title {
+    width:100%;
+    height:45px;
+    background-color:#336666;
+    line-height:45px;
+    padding-left:17px;
+    color:#EEEEEE;
+    font-weight:bold;
+    font-size:12.65px;
+}
+
+.item-content {
+    width:100%;
+    height:85px;
+    margin-top:18px;
+    font-size:14px;
+    color:#666666;
+    padding-left:17px;
+    line-height:1.5;
+}
+
+.content-style {
+    font-size:16px;
+    color:black;
+}
+
+.map {
+    padding: 0 15px;
+}

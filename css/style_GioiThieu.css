@@ -1,0 +1,57 @@
+.container, .col-lg-6, .col-lg-12, .col-lg-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F5F5F5;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.banner {
+    z-index: 0;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.gioithieu-line {
+    padding: 15px 5px;
+}
+
+.gioithieu-line img {
+    width:100%;
+    height:auto;
+}
+
+.gioithieu-content {
+    padding: 50px 30px;
+    text-align:justify;
+    font-size:17px;
+    line-height:1.5;
+}
+
+.title-text {
+    font-size:23px;
+    font-weight:bold;
+    color:#336666;
+}
+
+.gioithieu-img {
+    padding: 30px 30px;
+}
