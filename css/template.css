@@ -27,31 +27,25 @@
         border-radius: 0;
     }
 }
-
 @media (max-width: 768px) {
     .navbar.navbar-inverse {
         background-color: #336666;
         border: 0;
     }
-
     .navbar-inverse .navbar-nav > li > a {
         color: #EEEEEE !important;
         padding-left: 50px;
     }
-
     .navbar-collapse {
         max-height: calc(100vh - 80px);
         overflow-y: auto;
     }
-
     .banner {
         margin-top: -80px;
     }
-
     .footer h6 {
         font-size: 8px;
     }
-
     .container>.navbar-header {
         margin-right: 0;
     }
@@ -114,13 +108,11 @@
     background-color: #336666;
     padding: 10px 0;
 }
-
 h6 {
     color: white;
     font-size: 10px;
     margin-left: -37px;
 }
-
 .logo li {
     list-style-type: none;
     display: inline-block;

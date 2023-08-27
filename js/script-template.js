@@ -15,7 +15,6 @@ $(document).ready(function(){
         var currentWidth = $(window).width();
         var currentImage1 = $("#responsive-image-fb");
         var currentImage2 = $("#responsive-image-sf");
-
         if (currentWidth < breakpoint) {
             currentImage1.attr("src", newImageUrl1);
             currentImage2.attr("src", newImageUrl2);

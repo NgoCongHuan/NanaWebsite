@@ -45,24 +45,20 @@ body,html {
     padding: 15px 15px;
     float:left;
 }
-
 .item-img {
     display:block;
     overflow:hidden;
     cursor:pointer;
 }
-
 .item-img img {
     width:100%;
     height:auto;
     display:block;
     transition: all 0.3s ease-in-out;
 }
-
 .item-img img:hover {
     transform:scale(1.1);
 }
-
 .item-link {
     text-decoration:none;
 }
