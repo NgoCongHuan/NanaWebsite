@@ -150,3 +150,21 @@ body,html {
 .map {
     padding: 0 15px;
 }
+
+@media (max-width: 768px) {
+    .select-bar, .select-button {
+        padding: 10px 15px;
+    }
+
+    .map {
+        padding-top: 10px;
+    }
+
+    .items {
+        margin-top: -20px;
+    }
+
+    #mapIframeDN, #mapIframeBD {
+        margin-top: 20px;
+    }
+}
